@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-        "illuminate/support": "^10.10"
+        "php": "^8.1",
+        "pollen/wordpress-args": "dev-main"
     },
     "autoload": {
         "psr-4": {
