@@ -9,7 +9,6 @@
             "role": "Developer"
         }
     ],
-    "type": "package",
     "require": {
         "illuminate/support": "^10.10"
     },
