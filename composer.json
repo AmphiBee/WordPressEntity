@@ -1,0 +1,21 @@
+{
+    "name": "pollen/entity",
+    "description": "Create WordPress post type and taxonomy in a fluent way !",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Olivier Gorzalka",
+            "email": "olivier@amphibee.fr",
+            "role": "Developer"
+        }
+    ],
+    "type": "package",
+    "require": {
+        "illuminate/support": "^10.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pollen\\Entity": "src/"
+        }
+    }
+}
