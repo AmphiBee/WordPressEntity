@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Pollen\\Entity": "src/"
+            "Pollen\\Entity\\": "src/"
         }
     }
 }
