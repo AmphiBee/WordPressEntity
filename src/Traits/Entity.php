@@ -787,6 +787,8 @@ abstract class Entity
     public function registerEntityType()
     {
         $args = $this->buildArguments();
+        $args['names'] = $this->getNames();
+        
         $args = $this->translateArguments($args, $this->entity);
         $names = $args['names'];
         unset($args['names']);
